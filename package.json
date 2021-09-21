@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "echarts": "^5.2.1",
+    "webpack": "^5.53.0"
+  },
+  "devDependencies": {
+    "@types/echarts": "^4.9.10"
+  }
+}
