@@ -75,3 +75,11 @@ loadMoreButton.addEventListener('click',()=>{
     },3000);
 
 })
+myChart.on('click',(e)=>{
+    console.log(e.name); //x轴
+    console.log(e.data); //y轴
+    console.log(e.dataIndex);//y轴下标
+    window.open(`http://www.baidu.com/?time=${e.name}`);//打开另一个窗口
+
+
+})
