@@ -1,9 +1,15 @@
 {
   "dependencies": {
     "echarts": "^4.9.0",
-    "webpack": "^5.53.0"
+    "parcel": "^2.0.0",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.6",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "@types/echarts": "^4.9.10"
+    "@parcel/transformer-vue": "^2.0.0",
+    "@types/echarts": "^4.9.10",
+    "@types/vue": "^2.0.0"
   }
 }
